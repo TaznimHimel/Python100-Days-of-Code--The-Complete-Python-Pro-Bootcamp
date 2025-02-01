@@ -35,5 +35,5 @@ password = ""
 for char in password:
     password += char
 
-print(password)
+print(f"Your password is: {password}")
 
