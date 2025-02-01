@@ -28,7 +28,12 @@ for char in range(0, nr_symbols):
     
 random.shuffle(password)
 
-password = ''.join(password)
+# password = ''.join(password)
+
+password = ""
+
+for char in password:
+    password += char
 
 print(password)
 
